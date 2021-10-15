@@ -56,6 +56,10 @@ button {
   color: #f5cb5c;
 }
 
+.timer input:focus {
+  outline: none;
+}
+
 .timer button:hover {
   color: #f5cb5c;
 }

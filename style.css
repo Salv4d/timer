@@ -1,0 +1,74 @@
+/*
+project colors
+#333533
+#242423
+#F5CB5C
+#E8EDDF
+#CFDBD5
+*/
+
+::selection {
+  background-color: #333533;
+  border: none;
+}
+
+body {
+  background-color: #242423;
+  font-family: "Roboto", sans-serif;
+}
+
+.light {
+  background-color: white;
+}
+
+button {
+  font-size: 36px;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.timer .controls {
+  position: absolute;
+}
+
+.timer input {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #e8eddf;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 40pt;
+  width: 200px;
+  border: none;
+}
+
+.timer input:hover {
+  color: #f5cb5c;
+}
+
+.timer button:hover {
+  color: #f5cb5c;
+}
+
+.timer button:active {
+  color: #cfdbd5;
+  border: none;
+}
+
+footer {
+  display: flex;
+  color: white;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
